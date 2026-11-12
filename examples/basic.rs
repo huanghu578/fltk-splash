@@ -10,7 +10,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let path = std::env::args()
         .nth(1)
         .unwrap_or_else(|| "splash.toml".to_string());
-    splash_page::init(&path)?;
+    fltk_splash::init(&path)?;
 
     Ok(())
 }

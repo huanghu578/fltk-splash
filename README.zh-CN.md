@@ -1,4 +1,4 @@
-# splash-page
+# fltk-splash
 
 基于 [FLTK](https://github.com/fltk-rs/fltk-rs) 的轻量级启动画面（splash screen）库。
 
@@ -12,7 +12,7 @@
 
 ```toml
 [dependencies]
-splash-page = "0.1"
+fltk-splash = "0.1"
 ```
 运行时需要 FLTK 环境；fltk-rs 默认静态编译 FLTK，无需手动安装 SDK。
 
