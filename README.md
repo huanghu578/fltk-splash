@@ -1,4 +1,4 @@
-# splash-page
+# fltk-splash
 
 A lightweight splash screen library built on top of [FLTK](https://github.com/fltk-rs/fltk-rs).
 - Background image embedded as a **Base64** string — no external assets;
@@ -11,7 +11,7 @@ A lightweight splash screen library built on top of [FLTK](https://github.com/fl
 
 ```toml
 [dependencies]
-splash-page = "0.1"
+fltk-splash = "0.1.0"
 ```
 FLTK is required at runtime; fltk-rs statically builds FLTK by default, so no manual SDK install is needed.
 
