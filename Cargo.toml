@@ -1,0 +1,25 @@
+
+[package]
+name = "fltk-splash"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "A lightweight FLTK-based splash screen with Base64 background image and clickable links"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/huanghu578/fltk-splash"
+keywords = ["splash", "fltk", "gui", "base64"]
+categories = ["gui"]
+documentation = "https://docs.rs/fltk-splash"
+exclude = [".github",  "sync.bat"]
+
+
+
+[dependencies]
+fltk = "1.4"
+base64 = "0.22"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+open = "5"
+
+[dev-dependencies]
+tempfile = "3"
